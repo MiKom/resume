@@ -1,0 +1,55 @@
+\documentclass[polish]{curve}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2cm]{geometry}
+\usepackage{polski}
+\usepackage[colorlinks=true, a4paper=true, pdfstartview=FitV,
+linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+
+\newcommand{\inPolish}[1]{#1}
+\newcommand{\inEnglish}[1]{}
+
+\leftheader{%
+ul. Ogińskiego 137\\
+66-400 Gorzów Wlkp.
+}
+\rightheader{%
+E-mail: \href{mailto:milosz@kosobucki.pl}{milosz@kosobucki.pl}\\
+\inPolish{Tel. kom.:}\inEnglish{mobile:} (+48) 608 661 424
+}
+\titlefont{\Huge\textsc}
+\title{Miłosz Kosobucki}
+\subtitle{Curriculum Vitae}
+\flavor{adm}
+%\photo[r]{photo.jpg}
+%\photoscale{0.17}
+
+%\usepackage{color}
+%\makeatletter
+%\def\@@rubrichead#1{%
+%  \@rubricfont%
+%  \makebox[0pt][l]{\colorbox[gray]{0.7}{\makebox[\@almosttextwidth-\hfuzz]{}}}%
+%  \makebox[\@almosttextwidth-\hfuzz][c]{#1}\par\vspace\rubricspace}
+%\def\@@subrubric#1{%
+%  \parbox{0cm}{%
+%    \raisebox{\@beforespace}{\@subrubricfont%
+%      \makebox[1ex][l]{\colorbox[gray]{0.7}{\textcolor[gray]{0.7}{M}}}#1}%
+%    \par\vspace\subrubricspace}%
+%  \@subrubricmark{#1}}
+%\makeatother
+\begin{document}
+\newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\textbf+}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\textbf+}}
+\newcommand{\GTK}{GTK\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\textbf+}}
+
+\prefix{}
+\makeheaders
+\maketitle
+\makerubric{education}
+\makerubric{experience}
+\makerubric{skills}
+\makerubric{misc}
+\vfill
+\inEnglish{I hereby agree to have my personal data processed strictly for the purposes of job recruitment pursuant to the Act on Protection of Personal Data of 29 August 1997 (Journal of Laws, no. 133, item 883)}
+\inPolish{Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji
+procesu rekrutacji zgodnie z Ustawą z dn. 29.08.97 o Ochronie Danych Osobowych, Dz. Ust. Nr 133 poz.
+883.}
+\end{document}
